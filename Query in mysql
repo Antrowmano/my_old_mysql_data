@@ -7,3 +7,5 @@ Delete the existing row:
    DELETE FROM db_team1 WHERE phone=8333;
 Add index on the columns:
    CREATE UNIQUE INDEX index_1 ON db_team1 ( id, name, addr, selary,time,phone);
+Easy to view and visible
+   show create table db_team1;
